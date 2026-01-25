@@ -1,0 +1,13 @@
+---
+import "@splidejs/splide/css";
+import { Splide, SplideSlide } from "astro-splide";
+const { screenshots } = Astro.props;
+---
+
+<Splide options={{ type: "loop", perPage: 1, autoplay: true }}>
+  {screenshots.map((src) => (
+    <SplideSlide>
+      <img src={src} alt="Screenshot" class="rounded-lg w-full" />
+    </SplideSlide>
+  ))}
+</Splide>

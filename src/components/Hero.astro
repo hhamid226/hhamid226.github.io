@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+
 ---
 
 <div
@@ -118,36 +119,31 @@ import { siteConfig } from "../config";
         >
       </pattern>
     </defs>
-    <rect
-      fill="url(#programming-symbols)"
-      width="100%"
-      height="100%"
-      opacity="0.2"></rect>
-    <rect
-      fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
-      width="100%"
-      height="100%"
-      stroke-width={0}></rect>
   </svg>
-  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
-    <div>
-      <h2
-        class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in"
-      >
-        Hello! 👋
-      </h2>
-      <h1
-        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
-      >
-        I'm <span style={{ color: siteConfig.accentColor }}
-          >{siteConfig.name}</span
-        >
-      </h1>
-      <p
-        class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400"
-      >
+  <div class="h-full mx-auto max-w-7xl p-8 sm:p-12 md:p-24 flex items-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
+      <div>
+        <h2 class="text-xl sm:text-2xl md:text-5xl font-bold text-gray-700 animate-fade-in">
+        Hi!
+          </h2>
+
+        <h1 class="mt-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-800 animate-fade-in animation-delay-200">
+      I'm <span style={{ color: siteConfig.accentColor }}>{siteConfig.name}</span>
+        </h1>
+
+        <p class="mt-6 text-lg md:text-xl text-gray-600 animate-fade-in animation-delay-400">
         {siteConfig.title}
-      </p>
+        </p>
+      </div>
+      <div class="flex justify-center md:justify-end animate-fade-in animation-delay-400">
+  <div class="transition-transform duration-300 hover:scale-105">
+    <img
+      src="/hamza_photo_cropped.png"
+      alt="Hamza Hamid"
+      class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-xl border-4 border-white"
+    />
+  </div>
+</div>
     </div>
   </div>
   <div
@@ -207,36 +203,6 @@ import { siteConfig } from "../config";
               <path d="M12 16v-5" />
               <path d="M16 16v-3a2 2 0 1 0 -4 0" />
               <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
-            </>
-          </svg>
-        </a>
-      )
-    }
-    {
-      siteConfig.social?.twitter && (
-        <a
-          href={siteConfig.social.twitter}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Twitter"
-          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
-          >
-            <>
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
             </>
           </svg>
         </a>

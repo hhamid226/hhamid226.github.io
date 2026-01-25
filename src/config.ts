@@ -1,92 +1,54 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Hamza Hamid",
+  title: "Software Engineer II",
+  description: "Portfolio website of Hamza Hamid",
+  accentColor: "#4c7fc2",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "hamzahamid226tech@gmail.com",
+    linkedin: "https://www.linkedin.com/in/hamzahamid226/",
+    github: "https://github.com/hhamid226",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a Software Engineer II at General Motors with 3+ years of experience building scalable, dealer-facing applications used by thousands of users. I work across the full stack, primarily with Angular, TypeScript, Java, and Spring Boot, and I enjoy partnering closely with UX teams to turn complex workflows into intuitive, high-performing experiences. I’m especially passionate about clean frontend architecture, system reliability, and delivering features that meaningfully improve user efficiency.",
+  skills: ["Java", "TypeScript", "JavaScript", "HTML/HTML5", "CSS3", "SQL (PostgreSQL, Oracle SQL)", "C", "Python", "Ruby on Rails", "PHP", "R", "JSON", "YAML", ".NET", "Angular", "Next.js", "React", "Node.js", "JUnit", "Jest", "Material-UI", "Bootstrap", "PrimeNG", "Spring Boot", "Express.js", "Redux", "NgRx", "Leaflet.js"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Travel Journal",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A Travel Journal App that lets users track the countries and cities they’ve visited, write journal entries, and plan future trips. It features an interactive world map with zoomable city-level details using React, Next.js, and Leaflet, with a backend powered by Express and MongoDB. The application uses RESTful APIs to manage trips, locations, and journal data",
+      link: "https://github.com/hhamid226/TravelJournal",
+      skills: ["React", "Node.js", "MongoDB", "Leaflet"],
+      screenshots: [
+          "/screenshots/Travel_Journal_1.png",
+          "/screenshots/Travel_Journal_2.png",
+          "/screenshots/Travel_Journal_3.png",
+      ],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "General Motors (GM)",
+      title: "Software Engineer II",
+      dateRange: "Feb 2022 - Present",
+      logo: "/general_motors_logo.png",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Delivered 40+ full-stack features for dealer-facing applications used by thousands of users, including frontend development (Angular 20, TypeScript) and backend development (Java/Spring Boot, REST APIs, microservices), improving system performance and UI responsiveness by up to 35%",
+        "Supported a dealer-facing vendor management portal and fulfillment center mapping tools, providing UX/UI enhancements that reduced team workload by 30%, enabled on-time releases, and improved operational efficiency by 25%",
+        "Partnered with UX/UI teams to review and enhance dealer-facing workflows, identifying friction points and proposing design improvements that increased task completion efficiency by 25%",
+        "Resolved 50+ production issues using Kibana, Grafana, and PostgreSQL, while maintaining 100% frontend (Jest) and 90% backend (JUnit) unit test coverage to improve system reliability and uptime",
+        "Served as Scrum Master for selected sprints, organizing meetings, running daily standups, and coordinating cross-team communication during releases, accelerating delivery by 5%",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
+      school: "Georgia Institute of Technology (Georgia Tech)",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      dateRange: "2017 - 2021",
+      logo: "/Georgia-Tech-Logo.png",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Gates Millennium Scholarship Recipient",
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
   ],
 };
