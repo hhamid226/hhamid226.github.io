@@ -19,9 +19,9 @@ export const siteConfig = {
       link: "https://github.com/hhamid226/TravelJournal",
       skills: ["React", "Node.js", "MongoDB", "Leaflet"],
       screenshots: [
-          "/Hamza_Portfolio/screenshots/Travel_Journal_1.png",
-          "/Hamza_Portfolio/screenshots/Travel_Journal_2.png",
-          "/Hamza_Portfolio/screenshots/Travel_Journal_3.png",
+          "/Hamza_Portfolio/screenshots/Travel_Journal_ScreenShot1.png",
+          "/Hamza_Portfolio/screenshots/Travel_Journal_ScreenShot2.png",
+          "/Hamza_Portfolio/screenshots/Travel_Journal_ScreenShot3.png",
       ],
     },
   ],
